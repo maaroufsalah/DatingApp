@@ -1,0 +1,5 @@
+Sources :
+https://valor-software.com/ngx-bootstrap/#/dropdowns
+https://bootswatch.com/
+https://www.npmjs.com/package/@auth0/angular-jwt
+https://alertifyjs.com/
