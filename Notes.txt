@@ -4,6 +4,12 @@ https://valor-software.com/ngx-bootstrap/#/dropdowns
 https://bootswatch.com/
 https://www.npmjs.com/package/@auth0/angular-jwt
 https://alertifyjs.com/
+https://valor-software.com/ngx-bootstrap/#/
+https://www.npmjs.com/package/ngx-gallery
+
 API:
 https://www.json-generator.com/
 https://randomuser.me/
+https://github.com/auth0/angular2-jwt
+
+Extensions To Install in VsCode :
