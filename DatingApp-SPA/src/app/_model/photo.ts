@@ -1,5 +1,5 @@
 export interface Photo {
-    int: number;
+    id: number;
     url: string;
     description: string;
     dateAdded: Date;

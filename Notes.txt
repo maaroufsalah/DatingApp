@@ -12,4 +12,7 @@ https://www.json-generator.com/
 https://randomuser.me/
 https://github.com/auth0/angular2-jwt
 
+Manage Images :
+https://cloudinary.com/
+
 Extensions To Install in VsCode :
