@@ -17,7 +17,7 @@
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
       <span class="mr-1">
-        <img src="{{photoUrl}}" alt="">
+        <img src="{{photoUrl || '../../../assets/user.png'}}" alt="">
       </span>
       <a class="dropdown-toggle text-light" dropdownToggle>
         Welcome {{ authService.decodedToken?.unique_name | titlecase }}
@@ -35,7 +35,7 @@
         [(ngModel)]="model.username">
       <input class="form-control mr-sm-2" type="password" name="password" placeholder="Login" required
         [(ngModel)]="model.password">
-      <button [disabled]="!loginForm.valid" class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      <button [disabled]="!loginForm.valid" class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
     </form>
   </div>
 
