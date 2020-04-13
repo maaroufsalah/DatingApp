@@ -4,7 +4,7 @@ import { error } from 'protractor';
 import { AlertifyService } from '../_services/alertify.service';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker/public_api';
-import { User } from '../_model/user';
+import { User } from '../_models/user';
 import { Router } from '@angular/router';
 
 @Component({

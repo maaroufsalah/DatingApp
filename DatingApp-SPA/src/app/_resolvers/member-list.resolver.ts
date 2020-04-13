@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { User } from '../_model/user';
+import { User } from '../_models/user';
 import { Resolve, Router, ActivatedRouteSnapshot } from '@angular/router';
 import { UserService } from '../_services/user.service';
 import { AlertifyService } from '../_services/alertify.service';
@@ -8,6 +8,8 @@ import { catchError } from 'rxjs/operators';
 
 @Injectable()
 export class MemberListResolver implements Resolve<User[]> {
+    pageNumber = 1;
+    pageSize = 5;
 
     constructor(
         private userSevices: UserService,
@@ -16,7 +18,7 @@ export class MemberListResolver implements Resolve<User[]> {
         ){}
 
         resolve(route: ActivatedRouteSnapshot): Observable<User[]> {
-            return this.userSevices.getUsers().pipe(
+            return this.userSevices.getUsers(this.pageNumber, this.pageSize).pipe(
                 catchError(error => {
                   this.alertify.error('Problem retrieving data');
                   this.router.navigate(['/home']);
