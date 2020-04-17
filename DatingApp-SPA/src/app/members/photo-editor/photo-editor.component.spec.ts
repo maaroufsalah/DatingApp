@@ -3,21 +3,21 @@
 // import { By } from '@angular/platform-browser';
 // import { DebugElement } from '@angular/core';
 
-// import { MemberListComponent } from './member-list.component';
+// import { PhotoEditorComponent } from './photo-editor.component';
 
-// describe('MemberListComponent', () => {
-//   let component: MemberListComponent;
-//   let fixture: ComponentFixture<MemberListComponent>;
+// describe('PhotoEditorComponent', () => {
+//   let component: PhotoEditorComponent;
+//   let fixture: ComponentFixture<PhotoEditorComponent>;
 
 //   beforeEach(async(() => {
 //     TestBed.configureTestingModule({
-//       declarations: [ MemberListComponent ]
+//       declarations: [ PhotoEditorComponent ]
 //     })
 //     .compileComponents();
 //   }));
 
 //   beforeEach(() => {
-//     fixture = TestBed.createComponent(MemberListComponent);
+//     fixture = TestBed.createComponent(PhotoEditorComponent);
 //     component = fixture.componentInstance;
 //     fixture.detectChanges();
 //   });
