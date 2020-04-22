@@ -1,5 +1,5 @@
 Sources :
-SPA:
+SPA (Front):
 https://valor-software.com/ngx-bootstrap/#/dropdowns
 https://bootswatch.com/
 https://www.npmjs.com/package/@auth0/angular-jwt
@@ -7,12 +7,28 @@ https://alertifyjs.com/
 https://valor-software.com/ngx-bootstrap/#/
 https://www.npmjs.com/package/ngx-gallery
 
-API:
+API (Back):
 https://www.json-generator.com/
 https://randomuser.me/
 https://github.com/auth0/angular2-jwt
+Asp.net core global query filters
 
 Manage Images :
 https://cloudinary.com/
 
 Extensions To Install in VsCode :
+
+Start New project downloaded from net :
+    - API : dotnet restore
+    - SPA : npm install
+
+Connecting with SQL :
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.; Database=datingapp; User Id=sa; Password=Password12;"
+  },
+  and change x.UseSqlServer
+
+Connecting with Sqlite :
+  "DefaultConnection": "Data Source=datingapp.db" 
+  and cahnge in startup.cs to x.UseSqlite
+
